@@ -1,0 +1,247 @@
+[
+  {
+    "description": "    All scenarios for the 'Create Employee' endpoint",
+    "keyword": "Feature",
+    "name": "Create Employee",
+    "line": 2,
+    "id": "create-employee",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "test\\features\\1_Create_Employee.feature",
+    "elements": [
+      {
+        "id": "create-employee;to-verify-'crete-employee'-endpoint",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "To verify 'Crete Employee' endpoint",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@create",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "create a request 'Value 1' 'Value 1'",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hit endpoint with request2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should get 200 responseStatus2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should get value in response2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6002000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-employee;to-verify-'crete-employee'-endpoint",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "To verify 'Crete Employee' endpoint",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@create",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "create a request 'Value 2' 'Value 2'",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hit endpoint with request2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should get 200 responseStatus2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should get value in response2",
+            "match": {
+              "location": "test\\step-definitions\\CreateEmployeeSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6002000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    All scenarios for the 'Home' endpoint",
+    "keyword": "Feature",
+    "name": "Home",
+    "line": 2,
+    "id": "home",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "test\\features\\2_Get_Employee.feature",
+    "elements": [
+      {
+        "id": "home;to-verify-match-status-in-response-for-various-inputs",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "To verify match status in response for various inputs",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@home",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "create a request",
+            "match": {
+              "location": "test\\step-definitions\\GetEmployeeSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hit endpoint with request",
+            "match": {
+              "location": "test\\step-definitions\\GetEmployeeSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should get 200 responseStatus",
+            "match": {
+              "location": "test\\step-definitions\\GetEmployeeSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should get value in response",
+            "match": {
+              "location": "test\\step-definitions\\GetEmployeeSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
