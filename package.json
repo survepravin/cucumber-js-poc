@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "cucumber-js ./test/features -r ./test/step-definitions --tags \"@smoke or @create\" --format json:./reports/cucumber-reports/cucumber-json-report.json & gulp cucumberReports",
-    "start": "cucumber-js ./test/features -r ./test/step-definitions --tags \"@smoke or @create\" --parallel 3 --format json:./reports/cucumber-reports/cucumber-json-report.json"
+    "start": "cucumber-js ./test/features -r ./test/step-definitions --tags \"@home\" --parallel 3 --format json:./reports/cucumber-reports/cucumber-json-report.json"
     
   },
   "author": "surve_pravin@ymail.com",

@@ -43,7 +43,7 @@ Then('I should get 200 responseStatus', function (done) {
     }, 3000);
 });
 
-Then('I should get value in response', function (callback) {
+Then('I should get value/error in response', function (callback) {
     console.log('GET....AND THEN' + temp);
     setTimeout(() => {
         console.log('GET....AND THEN timeout' + temp);
